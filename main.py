@@ -61,8 +61,7 @@ for device_ip in device_list:
             csv_out.writerow([item + ',' + ip])
 
 
-# for index in range(0, len(reverse_dns_name_no_slashes)):
-# csv_out.writerows([reverse_dns_name_no_slashes[index]] for index in range(0, len(reverse_dns_name_no_slashes)))
+
 
 
 
